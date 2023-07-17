@@ -1,0 +1,94 @@
+body{ 
+    font: 12pt Arial;
+    background: rgb(179, 177, 177);
+    background: radial-gradient(circle, rgb(0, 0, 0)0%,
+    rgb(0, 0, 0) 86%, rgb(3, 0, 201) 100%);
+}
+nav{
+    background: rgba(18, 2, 105, 0.952);
+    background: linear-gradient(0deg, rgba(5, 3, 112, 0.932)44%,
+    rgb(248, 245, 245) 100%);
+    text-align: right;
+    padding: 10px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;
+    padding: 10px;
+}
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+.Estrelas{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.Estrelas img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+.Estrelas img:hover{
+    width: 280px;
+    height: 280px;
+}
+.Estrelas li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    margin-top: 10px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 10px 20px 10px 40px;
+}
+.Estrelas h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(247, 245, 245);
+}
+.titulo {
+    font-family: "Pacifico", cursive;
+    font-weight: normal;
+    font-size: 80px;
+    color: rgba(8, 239, 247, 0.966);
+    padding: 10px;
+}
+.sub-titulo{
+    text-align: center;
+    font-weight: normal;
+    font-size: 56px;
+    color: rgba(255, 255, 255, 0.973);
+    padding: 10px;
+}
+.titulo2{
+    font-size: 30px;
+    color: rgba(248, 247, 247, 0.966);
+}
+
+#btn {
+    padding: 0.5em 1.5em;
+    box-shadow: -5px 6px #006eff;
+    border: 3px solid #0440e7;
+    color: #0400ff;
+    font-weight: 400;
+    font-size: 1em;
+    transition: all esse-in 0.2s;
+    border-radius: 50px;
+}
+#btn a{
+    text-align: center;
+    font-size: 40px;
+    color: #01151b;
+    text-decoration: none;
+}
